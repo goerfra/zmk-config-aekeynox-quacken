@@ -20,7 +20,7 @@
 // #define KB_LAYOUT_QWERTY_DK         // Denmark
 // #define KB_LAYOUT_QWERTY_EE         // Estonia
 // #define KB_LAYOUT_QWERTY_ES         // Spain
-#define KB_LAYOUT_QWERTY_INTL       // US (International)
+// #define KB_LAYOUT_QWERTY_INTL       // US (International)
 // #define KB_LAYOUT_QWERTY_IT         // Italy
 // #define KB_LAYOUT_QWERTY_LAFAYETTE  // France
 // #define KB_LAYOUT_QWERTY_LATAM      // Latin America
