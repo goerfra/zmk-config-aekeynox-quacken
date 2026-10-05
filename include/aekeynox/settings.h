@@ -20,7 +20,7 @@
 // #define KB_LAYOUT_QWERTY_DK         // Denmark
 // #define KB_LAYOUT_QWERTY_EE         // Estonia
 // #define KB_LAYOUT_QWERTY_ES         // Spain
-// #define KB_LAYOUT_QWERTY_INTL       // US (International)
+#define KB_LAYOUT_QWERTY_INTL       // US (International)
 // #define KB_LAYOUT_QWERTY_IT         // Italy
 // #define KB_LAYOUT_QWERTY_LAFAYETTE  // France
 // #define KB_LAYOUT_QWERTY_LATAM      // Latin America
@@ -42,7 +42,7 @@
 // Uncomment one of the following lines if the host computer doen't run Windows.
 
 // #define MACOS
-// #define LINUX
+#define LINUX
 
 
 /******************************************************************************
@@ -58,7 +58,7 @@
 // Alternatively, you may uncomment the last line to use the outer columns
 // for 4 extra alpha keys instead of the default Tab, Escape, Backspace, Enter.
 
-// #define KB_EXTRA_LAYERS_AUTO      // default (recommended)
+#define KB_EXTRA_LAYERS_AUTO      // default (recommended)
 // #define KB_EXTRA_LAYERS_ALTGR     // default for LV, PL, RO
 // #define KB_EXTRA_LAYERS_ALPINE    // default for CH, DE, IT
 // #define KB_EXTRA_LAYERS_IBERICAN  // default for BR, ES, LATAM, PT
@@ -106,7 +106,7 @@
 
 // #define HT_NONE
 // #define HT_THUMB_TAPS
-// #define HT_HOME_ROW_MODS  // (default behavior)
+#define HT_HOME_ROW_MODS  // (default behavior)
 // #define HT_TWO_THUMB_KEYS
 
 // Timing is key! Keep the default value if unsure.
@@ -115,14 +115,14 @@
 // are the ones that may produce text, including the space bar and home row mods.
 // Keep this value high if you struggle with home row mods.
 
-// #define TAPPING_TERM 300
+#define TAPPING_TERM 300
 
 // This defines how quickly (in ms) you need to press and release a hold-tap
 // with the "hold-preferred" flavor for it to be considered a tap. These
 // hold-taps include the ones that don’t produce text when tapped.
 // Keep this value low if you press Enter or Escape by mistake too often.
 
-// #define SHORT_TAPPING_TERM 150
+#define SHORT_TAPPING_TERM 150
 
 // When tapping then holding the same tap-hold, if the delay between the two
 // key presses is lower than `QUICK_TAP`, the tap-hold will hold the tap action
@@ -144,7 +144,7 @@
 //  + Escape under the left thumb (direct access)
 // Highly recommended for Vim users, obviously. :-)
 
-// #define VIM_NAVIGATION
+#define VIM_NAVIGATION
 
 // [Experimental]
 // Uncomment the following line to enable the Callum variant of the previous
