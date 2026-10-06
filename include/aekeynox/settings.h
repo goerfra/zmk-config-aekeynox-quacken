@@ -14,7 +14,7 @@
 // #define KB_LAYOUT_BEPO              // France
 // #define KB_LAYOUT_BEPOLAR           // France
 // #define KB_LAYOUT_DVORAK            // US
-// #define KB_LAYOUT_ERGOL             // France
+#define KB_LAYOUT_ERGOL             // France
 // #define KB_LAYOUT_ERGLACE           // France
 // #define KB_LAYOUT_QWERTY_BR         // Brazil
 // #define KB_LAYOUT_QWERTY_DK         // Denmark
@@ -42,7 +42,7 @@
 // Uncomment one of the following lines if the host computer doen't run Windows.
 
 // #define MACOS
-// #define LINUX
+#define LINUX
 
 
 /******************************************************************************
@@ -127,8 +127,8 @@
 // When tapping then holding the same tap-hold, if the delay between the two
 // key presses is lower than `QUICK_TAP`, the tap-hold will hold the tap action
 // instead of the hold action. Again, keep the default value if unsure.
-
-// #define QUICK_TAP 200
+ 
+#define QUICK_TAP 200
 
 // For more information on how hold-taps operate, feel free to read ZMK’s docs:
 // https://zmk.dev/docs/keymaps/behaviors/hold-tap
