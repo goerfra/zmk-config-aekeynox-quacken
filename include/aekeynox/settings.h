@@ -42,7 +42,7 @@
 // Uncomment one of the following lines if the host computer doen't run Windows.
 
 // #define MACOS
-#define LINUX
+// #define LINUX
 
 
 /******************************************************************************
